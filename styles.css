@@ -71,8 +71,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
-    margin-top: 70px;
+    margin-top: 5em;
 }
 
 .cerc1 {
@@ -82,7 +81,7 @@ body {
     height: 100px;
     line-height: 100px;
     border-radius: 50%;
-    background-color: khaki;
+    background-color: #A2876A !important;
 }
 
 .cerc {
@@ -95,9 +94,6 @@ body {
     background-color: darkslateblue;
 }
 
-.cerc1 {
-    background-color: khaki;
-}
 
 .text-container {
     margin-top: 50px;
@@ -157,9 +153,32 @@ body {
     height: auto;
     display: flex;
     margin-top: 80px;
-    text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .text4 {
     display:flex;
     text-align: center;
+    flex-direction: column;
+}
+
+.text4 > h1 {
+    margin-top: 2em;
+    color: #A2876A;
+}
+.text4 > p {
+    margin-top: 1em;
+    color: #A2876A;
+}
+
+.frizer-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em 6em 2em;
+}
+
+.frizer{
+    background-color: #000;
+    height: 30rem;
+    width: 31%;
 }
